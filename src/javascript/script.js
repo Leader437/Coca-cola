@@ -9,3 +9,23 @@ hamburger.addEventListener("click", () => {
     document.querySelector(".menu").classList.toggle("hidden");
     document.querySelector(".close").classList.toggle("hidden");
 })
+
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
+
+const swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 1500,
+        disableonInteraction: 'false',
+    },
+    spaceBetween: 25,
+    freeMode: 'true',
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});

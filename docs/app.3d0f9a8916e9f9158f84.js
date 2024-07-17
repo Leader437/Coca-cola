@@ -1,1 +1,0 @@
-(()=>{"use strict";let e=document.querySelector(".hamburger"),t=document.querySelector("nav");e.addEventListener("click",(()=>{t.classList.toggle("-translate-y-[101%]"),document.querySelector(".menu").classList.toggle("hidden"),document.querySelector(".close").classList.toggle("hidden")}))})();
