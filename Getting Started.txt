@@ -1,0 +1,2 @@
+
+npm install --save-dev webpack webpack-cli style-loader css-loader html-webpack-plugin webpack-merge webpack-dev-server html-loader css-minimizer-webpack-plugin mini-css-extract-plugin clean-webpack-plugin autoprefixer tailwindcss postcss postcss-loader
