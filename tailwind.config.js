@@ -32,20 +32,12 @@ module.exports = {
         '.container': {
           width: '100%',
           maxWidth: '1200px',
-          paddingRight: '12px',
-          paddingLeft: '12px',
-          '@screen sm': {
-            paddingRight: '16px',
-            paddingLeft: '16px',
-          },
-          '@screen md': {
-            paddingRight: '20px',
-            paddingLeft: '20px',
-          },
-          '@screen lg': {
-            paddingRight: '32px',
-            paddingLeft: '32px',
-          }
+          paddingRight: '24px',
+          paddingLeft: '24px',
+          // '@screen sm': {
+          //   paddingRight: '16px',
+          //   paddingLeft: '16px',
+          // },
         },
       });
     },
