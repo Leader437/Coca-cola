@@ -74,8 +74,8 @@
         </div>
     </header>
 
-    <main class="container">
-        <section id="home" class="mt-16">
+    <main>
+        <section id="home" class="mt-16 max-w-[1444px] mx-auto">
             <div class="swiper mySwiper w-full h-full">
                 <div class="swiper-wrapper px-[4.5%] mb-12 lg:mb-5">
                     <div class="swiper-slide">
@@ -118,8 +118,9 @@
             </div>
         </section>
 
-        <section id="goals" class="mt-14 lg:mt-28">
-            <h2 class="text-center text-primaryBlack text-2xl lg:text-4xl font-bold mb-6 lg:mb-10">Our Sustainability Goals and Progress</h2>
+        <section id="goals" class="container mt-14 lg:mt-28">
+            <h2 class="text-center text-primaryBlack text-2xl lg:text-4xl font-bold mb-6 lg:mb-10">Our Sustainability
+                Goals and Progress</h2>
             <div class="flex flex-col gap-8 lg:flex-row">
                 <div class="overflow-hidden rounded-2xl bg-white shadow-lg lg:w-1/2">
                     <div class="lg:h-1/2 overflow-hidden">
@@ -155,7 +156,7 @@
             </div>
         </section>
 
-        <section id="feature" class="mt-14 lg:mt-28">
+        <section id="feature" class="container mt-14 lg:mt-28">
             <h2 class="text-center text-primaryBlack text-2xl lg:text-4xl font-bold mb-6 lg:mb-10">Featured News</h2>
             <div class="swiper mySwiper2 w-full h-full">
                 <div class="swiper-wrapper mb-16" id="wrapper2">
@@ -259,6 +260,31 @@
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="teaser" class="mt-14 lg:mt-52 lg:container">
+            <div class="lg:flex flex-row-reverse relative">
+                <div class="w-full lg:w-[60%] lg:rounded-2xl lg:shadow-2xl overflow-hidden relative z-0 lg:min-h-[600px]"><img src="../img/teaser1.jpg" class="w-full h-full object-cover"></div>
+                <div class="bg-white lg:w-[50%] mx-6 lg:mx-0 rounded-2xl shadow-xl flex flex-col px-6 lg:px-16 py-8 lg:py-14 relative -top-[90px] lg:absolute z-10 lg:h-full lg:left-0">
+                    <h2 class="text-primaryBlack text-xl lg:text-3xl mb-4 font-bold">Coca-Cola Company Jobs</h2>
+                    <p class="text-primaryBlack text-base lg:text-lg mb-8 leading-6">We seek employees that embrace change, champion diversity and push for progress. Your skills and
+                        experience will help us navigate the ever-changing global landscape and guide us into the next
+                        chapter and beyond.</p>
+                    <button class="border-2 border-solid border-primaryBlack rounded-3xl py-2 w-full lg:w-[70%] text-primaryBlack font-bold bg-transparent mt-auto">Explore Jobs</button>
+                </div>
+            </div>
+            <div class="lg:mt-56 lg:flex flex-row relative">
+                <div class="w-full lg:w-[60%] lg:rounded-2xl lg:shadow-2xl overflow-hidden relative z-0 lg:min-h-[600px]"><img src="../img/teaser2.jpg" class="w-full h-full object-cover"></div>
+                <div class="bg-white lg:w-[50%] mx-6 lg:mx-0 rounded-2xl shadow-xl flex flex-col px-6 lg:px-16 py-8 lg:py-14 relative -top-[90px] lg:absolute z-10 lg:min-h-full lg:right-0">
+                    <h2 class="text-primaryBlack text-xl lg:text-3xl mb-4 font-bold">A Purpose-Driven History</h2>
+                    <p class="text-primaryBlack text-base lg:text-lg mb-8 leading-6">The Coca‑Cola Company’s purpose is to refresh the world and make a difference and we have
+                        remained true to that purpose for 137 years. <br><br> ur strategy is centered around people—our
+                        consumers and employees—and driving sustainable solutions that build resilience into our
+                        business to respond to current and future challenges, while creating positive change for the
+                        planet.</p>
+                    <button class="border-2 border-solid border-primaryBlack rounded-3xl py-2 w-full lg:w-[70%] text-primaryBlack font-bold bg-transparent mt-auto">Learn more about us</button>
+                </div>
             </div>
         </section>
     </main>
